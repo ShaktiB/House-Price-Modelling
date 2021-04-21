@@ -34,6 +34,14 @@ The training data consists of 1460 rows & 81 columns.
 - There are 19 attributes with empty/NULL values; the most being Alley (Type of alley access to property), FirePlaceQu (Fireplace quality),
 PoolQC (Pool Quality), Fence (Fence Quality), and MiscFeature (Miscellaneous feature not covered in other categories).
 
+## Reference Work
+
+1. https://github.com/wblakecannon/ames/blob/master/ipynb/00-eda.ipynb
+2. https://github.com/thisisclement/Ames-Housing-Price-Prediction/blob/master/code/proj_2_eda_modelling.ipynb
+3. https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
+4. https://www.kaggle.com/masumrumi/a-detailed-regression-guide-with-house-pricing
+
+
 
 
 
