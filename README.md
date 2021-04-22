@@ -34,6 +34,13 @@ The training data consists of 1460 rows & 81 columns.
 - There are 19 attributes with empty/NULL values; the most being Alley (Type of alley access to property), FirePlaceQu (Fireplace quality),
 PoolQC (Pool Quality), Fence (Fence Quality), and MiscFeature (Miscellaneous feature not covered in other categories).
 
+### Multicollinearity
+
+The VIF function was used to check for multicollinearity within the independent variables in this dataset. Based on this analysis a few variables were dropped.
+
+- BsmtFinSF1, BsmtFinSF2, and BsmtUnfSF were dropped and only the TotalBsmtSF variable was retained
+- 1stFlrSF and 2ndFlrSF were dropped off because they were highly correlated with GrLivArea
+
 ## Reference Work
 
 1. https://github.com/wblakecannon/ames/blob/master/ipynb/00-eda.ipynb
@@ -41,6 +48,11 @@ PoolQC (Pool Quality), Fence (Fence Quality), and MiscFeature (Miscellaneous fea
 3. https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
 4. https://www.kaggle.com/masumrumi/a-detailed-regression-guide-with-house-pricing
 
+### Concepts 
+1. Multicollinearity: https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/
+2. Multiple Regression: https://www.youtube.com/watch?v=AkBjJ6OunR4&t=631s
+3. Variance_inflation_factor caveat when used to check for Multicollinearity: https://stackoverflow.com/questions/42658379/variance-inflation-factor-in-python
+4. 
 
 
 
