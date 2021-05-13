@@ -55,9 +55,6 @@ The VIF function was used to check for multicollinearity within the independent 
 4. 
 
 
-## Testing Git
-
-
 
 
 
