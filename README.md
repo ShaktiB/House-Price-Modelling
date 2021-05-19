@@ -40,6 +40,11 @@ The VIF function was used to check for multicollinearity within the independent 
 
 - BsmtFinSF1, BsmtFinSF2, and BsmtUnfSF were dropped and only the TotalBsmtSF variable was retained
 - 1stFlrSF and 2ndFlrSF were dropped off because they were highly correlated with GrLivArea
+- GrLivArea still had a high VIF score of 8.2. Based on the heatmap, this could be caused by the correlation to the number of rooms and metrics related to garage size. However, since these could be real factors that impact the final sale price of a house, they were not removed.
+
+### Missing Values
+
+- PoolQC, MiscFeature, Alley, Fence, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, BsmtFinType1, BsmtExposure, BsmtFinType2, BsmtCond, BsmtQual, MasVnrType *all have NA meaning that the particular house 'feature' does not exist. The NAs do not represent true missing values*
 
 ## Reference Work
 
