@@ -52,6 +52,7 @@ The VIF function was used to check for multicollinearity within the independent 
 2. https://github.com/thisisclement/Ames-Housing-Price-Prediction/blob/master/code/proj_2_eda_modelling.ipynb
 3. https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
 4. https://www.kaggle.com/masumrumi/a-detailed-regression-guide-with-house-pricing
+5. Lot Frontage - https://www.kaggle.com/ogakulov/lotfrontage-fill-in-missing-values-house-prices
 
 ### Concepts 
 1. Multicollinearity: https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/
