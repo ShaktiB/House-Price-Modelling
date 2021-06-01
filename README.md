@@ -45,6 +45,22 @@ The VIF function was used to check for multicollinearity within the independent 
 ### Missing Values
 
 - PoolQC, MiscFeature, Alley, Fence, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, BsmtFinType1, BsmtExposure, BsmtFinType2, BsmtCond, BsmtQual, MasVnrType *all have NA meaning that the particular house 'feature' does not exist. The NAs do not represent true missing values*
+    - The NAs here were replaced with 'None'
+- For Electrical, there is only 1 null value, so for this one, it will be imputed with the most common value of SBrkr. The impact of this should be fairly minimal even if it is wrong
+
+#### Lot Frontage
+- Lot frontage was further investigated because it is a numerical field where 17.7% of the data was missing 
+- The building type and neighbourhood can have an impact on the lot frontage.
+
+![Lot Frontage by Building Type](Reports/Figures/lot_frontage_bldngtype_boxplot.png)
+<p align = "center">
+Fig.# - The townhouses tend to have a lower lot frontage value compared to the other building types. In addition, The Single-family Detached has a wide range of values, with numerous outliers. There is a notable difference in the average lot frontage for these different building types, with numerous outliers.
+</p>
+
+![Lot Frontage Boxplot](Reports/Figures/lot_frontage_boxplot.png)
+<p align = "center">
+Fig.# - If the mean or median of the overall lot frontage was used, it would not be a good representation of how the values can vary by building type. 
+</p>
 
 ## Reference Work
 
