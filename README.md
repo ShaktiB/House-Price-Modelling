@@ -50,16 +50,12 @@ The VIF function was used to check for multicollinearity within the independent 
 
 #### Lot Frontage
 - Lot frontage was further investigated because it is a numerical field where 17.7% of the data was missing 
-- The building type and neighbourhood can have an impact on the lot frontage.
-
-![Lot Frontage by Building Type](Reports/Figures/lot_frontage_bldngtype_boxplot.png)
-<p align = "center">
-Fig.# - The townhouses tend to have a lower lot frontage value compared to the other building types. In addition, The Single-family Detached has a wide range of values, with numerous outliers. There is a notable difference in the average lot frontage for these different building types, with numerous outliers.
-</p>
+- The Neighborhood & Lot Configuration will be used to help impute the Lot Frontage of the missing values 
+	- Due to the number of outliers, the median of the Neighborhood & Lot Configuration values will be used to impute the missing Lot Frontage data
 
 ![Lot Frontage Boxplot](Reports/Figures/lot_frontage_boxplot.png)
 <p align = "center">
-Fig.# - If the mean or median of the overall lot frontage was used, it would not be a good representation of how the values can vary by building type. 
+Fig.# - If the mean or median of the overall lot frontage was used, it would not be a good representation of how the values can vary based on the neighbourhood & lot configuration.  
 </p>
 
 ## Reference Work
