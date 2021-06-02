@@ -64,7 +64,7 @@ Fig.# - If the mean or median of the overall lot frontage was used, it would not
 2. https://github.com/thisisclement/Ames-Housing-Price-Prediction/blob/master/code/proj_2_eda_modelling.ipynb
 3. https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
 4. https://www.kaggle.com/masumrumi/a-detailed-regression-guide-with-house-pricing
-5. Lot Frontage - https://www.kaggle.com/ogakulov/lotfrontage-fill-in-missing-values-house-prices
+5. https://nycdatascience.com/blog/student-works/ames-higher-house-price-prediction/
 
 ### Concepts 
 1. Multicollinearity: https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/
