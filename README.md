@@ -66,7 +66,7 @@ Fig.# - If the mean or median of the overall lot frontage was used, it would not
 4. https://www.kaggle.com/masumrumi/a-detailed-regression-guide-with-house-pricing
 5. https://nycdatascience.com/blog/student-works/ames-higher-house-price-prediction/
 6. Encoding - https://ahume9.medium.com/ames-housing-prices-reconsidered-part-1-simple-encoding-d5f4e8bac675
-7. Ordinal & Nomial Encoding - https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
+7. Nomial Encoding - https://machinelearningmastery.com/how-to-one-hot-encode-sequence-data-in-python/
 
 ### Concepts 
 1. Multicollinearity: https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/
